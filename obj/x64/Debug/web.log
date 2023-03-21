@@ -1,0 +1,57 @@
+﻿  正在验证源
+  正在将源远程复制到“192.168.124.130”
+  正在验证体系结构
+  正在验证体系结构
+  正在启动远程生成
+  正在编译源:
+  main.cpp
+D:\c++\web\main.cpp(93,27): warning : conversion to ‘uint16_t {aka short unsigned int}’ from ‘int’ may alter its value [-Wconversion]
+D:\c++\web\main.cpp(93,27): warning :   sin.sin_port = htons(port);
+D:\c++\web\main.cpp(93,27): warning :                            ^
+D:\c++\web\main.cpp(111,45): warning : comparison between signed and unsigned integer expressions [-Wsign-compare]
+D:\c++\web\main.cpp(111,45): warning :   if ((this->blocks.size() == 0) || blcs_ind > (this->blocks.size() - 1)) {
+D:\c++\web\main.cpp(111,45): warning :                                     ~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\c++\web\main.cpp(132,27): warning : conversion to ‘int’ from ‘std::vector<item_block>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\c++\web\main.cpp(132,27): warning :   int n = this->blocks.size();
+D:\c++\web\main.cpp(132,27): warning :           ~~~~~~~~~~~~~~~~~^~
+D:\c++\web\main.cpp(132,6): warning : unused variable ‘n’ [-Wunused-variable]
+D:\c++\web\main.cpp(132,6): warning :   int n = this->blocks.size();
+D:\c++\web\main.cpp(132,6): warning :       ^
+D:\c++\web\main.cpp(206,24): warning : conversion to ‘char’ from ‘__off_t {aka long int}’ may alter its value [-Wconversion]
+D:\c++\web\main.cpp(206,24): warning :    response += stat_err.st_size;
+D:\c++\web\main.cpp(206,24): warning :                ~~~~~~~~~^~~~~~~
+D:\c++\web\main.cpp(227,25): warning : conversion to ‘char’ from ‘__off_t {aka long int}’ may alter its value [-Wconversion]
+D:\c++\web\main.cpp(227,25): warning :     response += stat_err.st_size;
+D:\c++\web\main.cpp(227,25): warning :                 ~~~~~~~~~^~~~~~~
+D:\c++\web\main.cpp(238,25): warning : conversion to ‘char’ from ‘__off_t {aka long int}’ may alter its value [-Wconversion]
+D:\c++\web\main.cpp(238,25): warning :     response += stat_buf.st_size;
+D:\c++\web\main.cpp(238,25): warning :                 ~~~~~~~~~^~~~~~~
+D:\c++\web\main.cpp(243,28): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\c++\web\main.cpp(243,28): warning :   return it->w_buffer.length();
+D:\c++\web\main.cpp(243,28): warning :          ~~~~~~~~~~~~~~~~~~~^~
+D:\c++\web\main.cpp(249,1): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\c++\web\main.cpp(249,1): warning :  }
+D:\c++\web\main.cpp(249,1): warning :  ^
+D:\c++\web\main.cpp(254,17): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\c++\web\main.cpp(254,17): warning :    int len = send(it->clientfd,it->w_buffer.c_str(), it->w_buffer.length(), 0);
+D:\c++\web\main.cpp(254,17): warning :              ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\c++\web\main.cpp(261,21): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\c++\web\main.cpp(261,21): warning :    int ret = sendfile(it->clientfd, fd, NULL, stat_buf.st_size);
+D:\c++\web\main.cpp(261,21): warning :              ~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\c++\web\main.cpp(254,7): warning : unused variable ‘len’ [-Wunused-variable]
+D:\c++\web\main.cpp(254,7): warning :    int len = send(it->clientfd,it->w_buffer.c_str(), it->w_buffer.length(), 0);
+D:\c++\web\main.cpp(254,7): warning :        ^~~
+D:\c++\web\main.cpp(283,25): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+D:\c++\web\main.cpp(283,25): warning :    int endind = line.find(' ', 4);
+D:\c++\web\main.cpp(283,25): warning :                 ~~~~~~~~~^~~~~~~~
+D:\c++\web\main.cpp(292,1): warning : no return statement in function returning non-void [-Wreturn-type]
+D:\c++\web\main.cpp(292,1): warning :  }
+D:\c++\web\main.cpp(292,1): warning :  ^
+D:\c++\web\main.cpp(310,17): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\c++\web\main.cpp(310,17): warning :   int wlen = send(it->clientfd, it->w_buffer.c_str(), it->w_buffer.length(), 0);
+D:\c++\web\main.cpp(310,17): warning :              ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\c++\web\main.cpp(327,17): warning : conversion to ‘int’ from ‘ssize_t {aka long int}’ may alter its value [-Wconversion]
+D:\c++\web\main.cpp(327,17): warning :   int rlen = recv(it->clientfd, buffer, MAX_BUFFER_SIZE, 0);
+D:\c++\web\main.cpp(327,17): warning :              ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  正在链接对象
+  web.vcxproj -> D:\c++\web\bin\x64\Debug\web.out

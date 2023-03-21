@@ -1,0 +1,1 @@
+g++ -o "/home/demo/projects/web/bin/x64/Debug/web.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /home/demo/projects/web/obj/x64/Debug/main.o
